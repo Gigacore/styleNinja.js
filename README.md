@@ -7,4 +7,4 @@ Note: This script is at its very flux state. Requires improvements, but serves t
 
 ##License
 
-CSV Based PHP Mailing List is licensed under MIT.
+styleNinja.js is licensed under MIT.
