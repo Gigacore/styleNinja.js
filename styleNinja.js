@@ -7,8 +7,15 @@
 
 */
 
-jQuery("p, a, span").filter(function () {
+var default_selectors = "p, a, span, strong, em, td, tr, th, h1, h2, h3, h4, h5, h6, label, option, select";
+
+// For targeting div id and classes where script cannot be applied (items should be comma delimited).
+var custom_selectors = "#foo, #bar, .foobar";
+
+var selectors = default_selectors + ", " + custom_selectors;
+jQuery(selectors).filter(function () {
     return !(/^[a-zA-Z0-9_ .,:;~!#-@|®©'*^$?\(\)[\]{\}"]+$/).test(jQuery(this).text());
 }).css({
-    'color': '#FF0000'
+    'font-family': 'uttum',
+    'border': ' dashed 1px red'
 });
