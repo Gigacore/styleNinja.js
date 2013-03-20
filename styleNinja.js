@@ -16,6 +16,5 @@ var selectors = default_selectors + ", " + custom_selectors;
 jQuery(selectors).filter(function () {
     return !(/^[a-zA-Z0-9_ .,:;~!#-@|®©'*^$?\(\)[\]{\}"]+$/).test(jQuery(this).text());
 }).css({
-    'font-family': 'uttum',
-    'border': ' dashed 1px red'
+    'background': '#FF0000'
 });
