@@ -7,7 +7,7 @@
 
 */
 
-var default_selectors = "p, a, span, strong, em, td, tr, th, h1, h2, h3, h4, h5, h6, label, option, select";
+var default_selectors = "p, a, span, strong, em, td, tr, th, h1, h2, h3, h4, h5, h6, label, option, select, li";
 
 // For targeting div id and classes where script cannot be applied (items should be comma delimited).
 var custom_selectors = "#foo, #bar, .foobar";
