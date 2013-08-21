@@ -16,5 +16,5 @@ var selectors = default_selectors + ", " + custom_selectors;
 jQuery(selectors).filter(function () {
     return (/[^\x00-\x80®©™+]/).test(jQuery(this).text());
 }).css({
-    'background': '#FF0000'
+    'font-family': 'uttum'
 });
